@@ -1,0 +1,23 @@
+.counter-body {
+    height: 100%;
+    width: 200px;
+
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+}
+
+.counter-button {
+    height: 40px;
+    width: 40px;
+
+    vertical-align: middle;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center; 
+}
+
+.svg-canvas {
+    min-height: 290;
+}
