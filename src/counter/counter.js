@@ -53,7 +53,7 @@ class Counter extends React.Component {
             if(nextPoints === 16) {
                 this.stage = 'Buenas';
                 nextPoints = 1;
-            }
+            }   
 
             if (nextPoints === 15 && this.stage === 'Buenas') setTimeout(this.props.onWin, 200);
 
