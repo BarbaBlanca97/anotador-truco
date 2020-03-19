@@ -26,5 +26,9 @@ module.exports = {
                 use: [ 'file-loader' ]
             }
         ]
+    },
+    devServer: {
+        contentBase: './docs',
+        host: '0.0.0.0'
     }
 }

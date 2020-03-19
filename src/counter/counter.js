@@ -105,6 +105,7 @@ class Counter extends React.Component {
 
     render () {
         const stageIndicatorColorStyle = { color: this.stage === 'Buenas' ? '#4287f5' : '#d92c16' }
+
         return (
             <div
             className="counter-body"
@@ -115,12 +116,14 @@ class Counter extends React.Component {
                 >{ this.stage }</h3>
                 <svg
                 className="svg-canvas"
+                viewBox="0 0 100 300"
                 width="100px" 
-                height="100%"
+                height="300px"
                 >
                     { this.renderLines() }
                 </svg>
-                <div>
+                <div
+                className="counter-buttons-container">
                     <button 
                     className="counter-button"
                     onClick={ this.addPoint }
